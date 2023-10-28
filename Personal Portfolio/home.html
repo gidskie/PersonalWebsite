@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="typewriter-container">
+        <p id="typewriter-text"></p>
+    </div>
+
+    <div class="spotify">
+        <div id="howl">
+            <img class="image" src="pictures/howl.jpg">
+        </div>
+    
+        <div id="hi">
+            <p> music powers up my mood <br> hover to the album covers to hear the magic</p>
+        </div>
+
+        <div class="albums">
+            <div class="album">
+                <img src="pictures/1989.webp" alt="Album 1">
+                <audio class="album-audio" src="music/1989.mp3"></audio>
+            </div>
+
+            <div class="album">
+                <img src="pictures/folklore.png" alt="Album 2">
+                <audio class="album-audio" src="music/cardigan.mp3"></audio>
+            </div>
+
+            <div class="album">
+                <img src="pictures/evermore.png" alt="Album 2">
+                <audio class="album-audio" src="music/evermore.mp3"></audio>
+            </div>
+
+            <div class="album">
+                <img src="pictures/stranger.png" alt="Album 2">
+                <audio class="album-audio" src="music/stranger.mp3"></audio>
+            </div>
+
+            <div class="album">
+                <img src="pictures/punisher.png" alt="Album 2">
+                <audio class="album-audio" src="music/punisher.mp3"></audio>
+            </div>
+
+            <div class="album">
+            <img src="pictures/bewitched.jpg" alt="Album 2">
+            <audio class="album-audio" src="music/bewitched.mp3"></audio>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="skills">
+        <div class="skill">
+            <div class="skill-label">HTML</div>
+            <div class="skill-bar">
+                <div class="skill-fill" style="width: 90%;"></div> <!-- Adjust the width to represent your skill level -->
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-label">JavaScript</div>
+            <div class="skill-bar">
+                <div class="skill-fill" style="width: 20%;"></div> <!-- Adjust the width to represent your skill level -->
+            </div>
+        </div>
+        <div class="skill">
+            <div class="skill-label">CSS</div>
+            <div class="skill-bar">
+                <div class="skill-fill" style="width: 90%;"></div> <!-- Adjust the width to represent your skill level -->
+            </div>
+        </div>
+    </div>
+
+    <div class="chatbox">
+        <div class="chatbox-content" id="chatbox-content">
+            <div class="message received">Hello! Try my Simple Calcular Below!</div>
+            <div class="example"> example: 2 + 2, 2 - 2, 2 * 2, 2 / 2</div>
+        </div>
+        <input type="text" id="user-input" placeholder="Type here...">
+        <button id="send-button">Send</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
